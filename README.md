@@ -2,8 +2,8 @@
 
 <img width='200' src='https://user-images.githubusercontent.com/5353685/101644586-233eb080-3a14-11eb-9cec-2172586abfde.png'/>
 
-[![Nuget](https://img.shields.io/nuget/dt/pix-dynamic-payload-generator.net)](https://www.nuget.org/packages/pix-dynamic-payload-generator.net)
-[![Nuget](https://img.shields.io/nuget/v/pix-dynamic-payload-generator.net)](https://www.nuget.org/packages/pix-dynamic-payload-generator.net)
+[![Nuget](https://img.shields.io/nuget/dt/pix-dynamic-payload-generator-relax.net)](https://www.nuget.org/packages/pix-dynamic-payload-generator-relax.net)
+[![Nuget](https://img.shields.io/nuget/v/pix-dynamic-payload-generator-relax.net)](https://www.nuget.org/packages/pix-dynamic-payload-generator-relax.net)
 
 Este pacote é a implementação em .net para auxiliar na geração de payloads e QRCodes dinâmicos para pagamento PIX
 
@@ -14,5 +14,3 @@ Este pacote é a implementação em .net para auxiliar na geração de payloads 
 - [QR Code dinâmico, como iniciar?](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/3-QR-Code-din%C3%A2mico,-como-iniciar%3F)
 - [QR Code dinâmico, como gerar?](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/4-QR-Code-din%C3%A2mico,-como-gerar%3F)
 - [QR Code dinâmico, testes](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/5-QR-Code-din%C3%A2mico,-testes)
-
-⚠ Somente o pacote [pix-payload-generator.net](https://github.com/alexandresanlim/pix-payload-generator.net) será necessário, caso necessite somente das funcionalidades de "QR Code estático".
