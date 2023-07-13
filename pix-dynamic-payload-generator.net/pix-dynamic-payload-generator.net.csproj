@@ -3,14 +3,24 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <RootNamespace>pix_dynamic_payload_generator.net</RootNamespace>
-    <Version>1.0.24</Version>
-    <Authors>Alexandre Sanlim</Authors>
+    <Version>1.0.25</Version>
+    <Authors>Alexandre Sanlim, Léo Baccili</Authors>
     <Description>Auxilia na geração de QRCodes dinâmicos para pagamentos com PIX (Sistema de pagamento instantâneo do Banco Central do Brasil).</Description>
-    <PackageProjectUrl>https://github.com/alexandresanlim/pix-dynamic-payload-generator.net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/alexandresanlim/pix-dynamic-payload-generator.net</RepositoryUrl>
-    <PackageTags>pix,brasil,brazil,qr,code,pagamento</PackageTags>
+    <PackageProjectUrl>https://github.com/leobaccili/pix-dynamic-payload-generator-relax.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/leobaccili/pix-dynamic-payload-generator-relax.net</RepositoryUrl>
+    <PackageTags>pix,brasil,brazil,qr,code,pagamento,banco inter</PackageTags>
     <UserSecretsId>4c002251-3090-4c5b-8cd5-8cc1066297b0</UserSecretsId>
+    <PackageId>pix-dynamic-payload-generator-relax.net</PackageId>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
