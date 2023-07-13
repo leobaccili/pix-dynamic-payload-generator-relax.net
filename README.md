@@ -1,4 +1,4 @@
-# PIX - Dynamic payload generator dot net
+# PIX - Dynamic payload generator dot net (relaxed version)
 
 <img width='200' src='https://user-images.githubusercontent.com/5353685/101644586-233eb080-3a14-11eb-9cec-2172586abfde.png'/>
 
@@ -7,10 +7,9 @@
 
 Este pacote é a implementação em .net para auxiliar na geração de payloads e QRCodes dinâmicos para pagamento PIX
 
-### Para começar, veja a nossa [Wiki](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki):
-- [Diferenças, QR Code estático x QR Code dinâmico](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/0-Diferen%C3%A7as,-QR-Code-est%C3%A1tico-x-QR-Code-din%C3%A2mico)
-- [QR Code estático, como gerar?](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/1-QR-Code-est%C3%A1tico,-como-gerar%3F)
-- [QR Code dinâmico, PSPs compatíveis.](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/2-QR-Code-din%C3%A2mico,-PSPs-compat%C3%ADveis.)
-- [QR Code dinâmico, como iniciar?](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/3-QR-Code-din%C3%A2mico,-como-iniciar%3F)
-- [QR Code dinâmico, como gerar?](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/4-QR-Code-din%C3%A2mico,-como-gerar%3F)
-- [QR Code dinâmico, testes](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net/wiki/5-QR-Code-din%C3%A2mico,-testes)
+Atualmente o pacote suporta os bancos que seguem os padrões e contratos do [pix-api (BACEN)](https://github.com/bacen/pix-api) e os seguintes bancos que não seguem:
+- Banco Inter
+
+Se o seu banco segue os padrões e contratos sugiro utilizar o [pix-dynamic-payload-generator.net](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net) direto.
+
+Para saber como utilizar o pacote, verifique o projeto de tests.
