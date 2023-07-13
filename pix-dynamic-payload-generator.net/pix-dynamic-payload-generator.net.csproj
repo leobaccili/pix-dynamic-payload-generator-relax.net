@@ -5,7 +5,8 @@
     <RootNamespace>pix_dynamic_payload_generator.net</RootNamespace>
     <Version>1.0.25</Version>
     <Authors>Alexandre Sanlim, Léo Baccili</Authors>
-    <Description>Auxilia na geração de QRCodes dinâmicos para pagamentos com PIX (Sistema de pagamento instantâneo do Banco Central do Brasil).</Description>
+    <Description>Auxilia na geração de QRCodes dinâmicos para pagamentos com PIX (Sistema de pagamento instantâneo do Banco Central do Brasil).
+Implenta a api-pix do BACEN e a API do Banco Inter.</Description>
     <PackageProjectUrl>https://github.com/leobaccili/pix-dynamic-payload-generator-relax.net</PackageProjectUrl>
     <RepositoryUrl>https://github.com/leobaccili/pix-dynamic-payload-generator-relax.net</RepositoryUrl>
     <PackageTags>pix,brasil,brazil,qr,code,pagamento,banco inter</PackageTags>
