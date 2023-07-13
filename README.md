@@ -12,4 +12,4 @@ Atualmente o pacote suporta os bancos que seguem os padrões e contratos do [pix
 
 Se o seu banco segue os padrões e contratos sugiro utilizar o [pix-dynamic-payload-generator.net](https://github.com/alexandresanlim/pix-dynamic-payload-generator.net) direto.
 
-Para saber como utilizar o pacote, verifique o projeto de tests.
+Para saber como utilizar o pacote, [verifique o projeto de tests](https://github.com/leobaccili/pix-dynamic-payload-generator-relax.net/tree/master/pix-dynamic-payload-generator.net-test).
